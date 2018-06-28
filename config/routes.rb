@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'pokemon/index'
+root :to => "pokemon_controller#index"
 
 end
